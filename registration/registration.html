@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    
+   <div class="container">
+
+    <form class="form" >
+        <p class="title">Register </p>
+        <p class="message">Signup now and get full access to our app. </p>
+         <div class="flex">
+            <label>
+                <input class="input" type="text" placeholder="" required="">
+                <span>First name</span>
+            </label>
+    
+            <label>
+                <input class="input" type="text" placeholder="" required="">
+                <span>Last name</span>
+            </label>
+        </div>  
+                
+        <label>
+            <input class="input" type="text" placeholder="" required="">
+            <span>User ID</span>
+        </label>
+
+        <label>
+            <input class="input" type="email" placeholder="" required="" >
+            <span>Email</span>
+        </label> 
+            
+        <label>
+            <input class="input" type="password" placeholder="" required="" id="pass">
+            <span>Password</span>
+            <i id="openeye" class="fa-regular fa-eye" ></i>
+            <i  id="closeeye" class="fa-regular fa-eye-slash "></i>
+        </label>
+
+        <label>
+            <input class="input" type="password" placeholder="" required="" id="cpass" >
+            <span>Confirm password</span>
+            <i id="openeye" class="fa-regular fa-eye"  ></i>
+            <i  id="closeeye" class="fa-regular fa-eye-slash"></i>
+        </label>
+        <button class="submit">Submit</button>
+        <p class="signin">Already have an acount ? <a href="../login/login.html">Signin</a> </p>
+    </form>
+
+   </div>
+
+   <script src="register.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>Teacher Panel</h2>
+            </div>
+            <ul class="sidebar-menu">
+                <li><a href="#profile" ><i class="fas fa-user"></i> Profile</a></li>
+                <li><a href="#students"><i class="fas fa-users"></i> Students</a></li>
+                <li><a href="#courses"><i class="fas fa-book"></i> Courses</a></li>
+                <li><a href="#settings"><i class="fas fa-cog"></i> Settings</a></li>
+                <li><a href="../login/login.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <h1>Welcome, Teacher</h1>
+                <input type="text" placeholder="Search...">
+            </header>
+
+            <section class="dashboard-content">
+                <!-- Profile Section -->
+                <div id="profile" class="card">
+                    <h3>Profile</h3>
+                    <p>Name: John Doe</p>
+                    <p>Subject: Mathematics</p>
+                    <button>Edit Profile</button>
+                </div>
+
+                <!-- Students Section -->
+                <div id="students" class="card">
+                    <h3>Students</h3>
+                    <p>Manage and track your students' progress.</p>
+                    <button>View Students</button>
+                </div>
+
+                <!-- Courses Section -->
+                <div id="courses" class="card">
+                    <h3>Courses</h3>
+                    <p>Overview of all courses you're teaching.</p>
+                    <button>Manage Courses</button>
+                </div>
+
+                <!-- Settings Section -->
+                <div id="settings" class="card">
+                    <h3>Settings</h3>
+                    <p>Update your preferences and account settings.</p>
+                    <button>Open Settings</button>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

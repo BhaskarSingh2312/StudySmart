@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    
+   <div class="container">
+
+    <form class="form" >
+        
+        <p class="title">Login </p>
+        
+                
+        <label>
+            <input class="input" type="text" placeholder="" required="">
+            <span>User ID</span>
+            <i class="fa-regular fa-user"></i>
+        </label>
+
+       
+            
+        <label>
+            <input class="input" type="password" placeholder="" required="" id="pass">
+            <span>Password</span>
+            <i id="openeye" class="fa-regular fa-eye"  onclick="toggle()"></i>
+            <i  id="closeeye" class="fa-regular fa-eye-slash " onclick="toggle()"></i>
+        </label>
+
+        <p class="signin"><a href="#">Forgot password ?</a> </p>
+
+        <button class="submit">Submit</button>
+        <p class="signin">Don't have an acount ? <a href="../registration/registration.html">Signup</a> </p>
+    </form>
+
+    <div class="img">
+        <img src="login.png" alt="">
+    </div>
+
+   </div>
+
+   <script src="login.js"></script>
+</body>
+</html>

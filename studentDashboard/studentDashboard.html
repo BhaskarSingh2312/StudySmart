@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            flex: 1 1 calc(33% - 30px);
+            max-width: calc(33% - 30px);
+            box-sizing: border-box;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .card p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Student Dashboard</h1>
+    </header>
+
+    <nav>
+        <a href="#profile">Profile</a>
+        <a href="#grades">Grades</a>
+        <a href="#assignments">Assignments</a>
+        <a href="#resources">Resources</a>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>Profile</h2>
+            <p>View and update your personal information.</p>
+        </div>
+        <div class="card">
+            <h2>Grades</h2>
+            <p>Check your latest grades and progress reports.</p>
+        </div>
+        <div class="card">
+            <h2>Assignments</h2>
+            <p>Keep track of upcoming and submitted assignments.</p>
+        </div>
+        <div class="card">
+            <h2>Resources</h2>
+            <p>Access study materials and online tools.</p>
+        </div>
+        <div class="card">
+            <h2>Messages</h2>
+            <p>View announcements and communicate with teachers.</p>
+        </div>
+        <div class="card">
+            <h2>Schedule</h2>
+            <p>Manage your daily and weekly schedule.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Student Dashboard. All rights reserved.</p>
+    </footer>
+</body>
+</html>
